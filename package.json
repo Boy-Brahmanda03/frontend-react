@@ -7,7 +7,7 @@
 		"dev": "vite",
 		"build": "vite build",
 		"lint": "eslint .",
-		"start": "vite preview --port $PORT"
+		"start": "vite preview"
 	},
 	"dependencies": {
 		"flowbite-react": "^0.10.2",
