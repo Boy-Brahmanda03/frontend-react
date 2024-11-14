@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
 	plugins: [react()],
 	server: {
-		port: parseInt(import.meta.env.VITE_PORT) || 3000, // Menggunakan port dari env atau 3000
+		port: 8080 | 3000, // Menggunakan port dari env atau 3000
 		host: true, // Mendengarkan di semua alamat IP, diperlukan untuk server
 	},
 });
