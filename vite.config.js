@@ -8,4 +8,7 @@ export default defineConfig({
 		port: 8080 | 3000, // Menggunakan port dari env atau 3000
 		host: true, // Mendengarkan di semua alamat IP, diperlukan untuk server
 	},
+	build: {
+		outDir: "dist", // folder output hasil build
+	},
 });
